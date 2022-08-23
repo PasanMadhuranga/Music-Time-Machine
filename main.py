@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-CLIENT_ID = input("Client ID: ")
-CLIENT_SECRET = input("Client Secret: ")
-REDIRECT_URI = input("redirect_uri: ")
-USERNAME = input("Spotify Username: ")
+SPOTIPY_CLIENT_ID = "a6fd0c24961b44538dcf683ff4883633"
+SPOTIPY_CLIENT_SECRET = "f2173f192ab145e9b7d40a1823bf3ef2"
+SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8080/"
+USERNAME = "3ngyewyso6yaw39tahmcmcbxw"
 
 
 class TopSongs:
